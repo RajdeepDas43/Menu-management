@@ -1,0 +1,39 @@
+{
+    "name": "menu-management",
+    "version": "1.0.0",
+    "description": "A Node.js backend for managing menu items, including categories, sub-categories, and items.",
+    "main": "app.js",
+    "scripts": {
+      "start": "nodemon app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yourusername/menu-management.git"
+    },
+    "keywords": [
+      "nodejs",
+      "express",
+      "menu",
+      "management",
+      "api",
+      "backend"
+    ],
+    "author": "Rajdeep Das",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/yourusername/menu-management/issues"
+    },
+    "homepage": "https://github.com/yourusername/menu-management#readme",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.11.15",
+      "body-parser": "^1.19.0",
+      "express-validator": "^6.6.1",
+      "http-errors": "^1.8.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
+  
