@@ -226,15 +226,19 @@ menu-management/
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 **Which database have you chosen and why?**
+
 I chose MongoDB because it is a flexible, schema-less NoSQL database that works well with hierarchical data structures like categories, sub-categories, and items. It integrates smoothly with Node.js and allows for easy scaling and querying.
 
 **Three things that you learned from this assignment:**
+
 1. **Advanced API Design:** Crafting a RESTful API with complex nested relationships like categories and sub-categories.
 2. **Error Handling in Node.js:** Implementing structured error handling and validation using `express-validator` and `http-errors` to improve API robustness.
 3. **Performance Considerations:** Understanding the importance of database indexing and query optimization when dealing with nested data structures.
 
 **What was the most difficult part of the assignment?**
+
 The most challenging part was ensuring that the database interactions were efficient and that the API could handle nested data structures (categories, sub-categories, items) effectively, especially when implementing deep query functionalities and maintaining data integrity.
 
 **What you would have done differently given more time?**
+
 With more time, I would have implemented additional features like user authentication and authorization to secure the API. Also, I would explore integrating more complex search functionalities using MongoDB's full-text search capabilities and perhaps even setting up a more sophisticated caching mechanism to enhance performance for frequent read operations.
